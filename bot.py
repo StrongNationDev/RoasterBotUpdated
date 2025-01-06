@@ -7,7 +7,7 @@ from telegram.ext import CallbackQueryHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 
-client = pymongo.MongoClient("mongodb+srv://dbUser:dbUserpass@telegrambot.yngj8.mongodb.net/ReferralBotDB?retryWrites=true&w=majority")  # Replace with your connection string
+client = pymongo.MongoClient("mongodb+srv://dbUser:dbUserpass@telegrambot.yngj8.mongodb.net/ReferralBotDB?retryWrites=true&w=majority")
 db = client["ReferralBotDB"]
 referrals_collection = db["Referrals"]
 
