@@ -163,7 +163,7 @@ async def button_handler(update, context):
 
 
 def main():
-    app = Application.builder().token("7938728660:AAFg3Ul2k8GO2avvwhCX7OLlzvyXgQj6YEI").build()
+    app = Application.builder().token("7938728660:AAHUARVOxE_rxrAwwtGbfAPL1HZVn1-jl0A").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CallbackQueryHandler(claim_reward, pattern="^claim_reward:"))
